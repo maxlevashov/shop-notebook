@@ -9,9 +9,9 @@ use Bitrix\Main\Localization\Loc;
 Loc::loadMessages(__FILE__);
 
 /**
- * Class HighLoadBlockComplexComponent 'Комплексный компонент'
+ * Class ProductComplexComponent 'Комплексный компонент'
  */
-class HighLoadBlockComplexComponent extends CBitrixComponent
+class ProductComplexComponent extends CBitrixComponent
 {
     /** @var int Разбить по страницам количеством */
     public $iRowsPerPage = 10;
